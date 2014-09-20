@@ -10,6 +10,7 @@ else
   exit
 fi
 
+cd ..
 rails new PROJECT_DIR -T -d postgresql
 # git clone https://github.com/heroku/ruby-rails-sample.git
 

@@ -113,7 +113,7 @@ ruby -v
 
 # The latest version of Rails will be installed - should be 4.0 or higher
 
-gem install rails
+gem install rails --no-ri --no-rdoc
 
 # Verify that it was installed correctly
 
