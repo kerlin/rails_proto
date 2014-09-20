@@ -1,4 +1,4 @@
-# A project to set up rails projects with vagrant
+# A project to set up rails projects using github, vagrant and heroku.
 
 see also
 https://www.railstutorial.org/book/static_pages
