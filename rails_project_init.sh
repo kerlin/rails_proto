@@ -11,6 +11,8 @@ else
 fi
 
 cd ..
+# create an empty rails project
 rails new PROJECT_DIR -T -d postgresql
+# create a test project
 # git clone https://github.com/heroku/ruby-rails-sample.git
 

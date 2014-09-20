@@ -1,10 +1,12 @@
 #!/bin/bash
 
 # Run only once on host
+# Run on vagrant in case there's a Procfile
 
 if whoami | grep vagrant >/dev/null
 then
-  echo "Run this script on host"
+  echo "Vagrant detected, only installing foreman"
+  gem install foreman
   exit
 else
   echo "Ok, running on host"

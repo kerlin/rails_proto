@@ -6,3 +6,4 @@ http://guides.rubyonrails.org/v3.2.13/getting_started.html#getting-up-and-runnin
 http://railsapps.github.io/rails-heroku-tutorial.html
 https://github.com/heroku/ruby-rails-sample
 https://devcenter.heroku.com/articles/getting-started-with-rails4
+http://www.postgresql.org/docs/9.1/static/auth-pg-hba-conf.html

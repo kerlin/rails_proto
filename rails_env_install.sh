@@ -56,6 +56,9 @@ sudo apt-get install -y libpq-dev
 # rake db:migrate
 # also db:schema:load, db:seed, db:setup, db:drop, etc.
 
+# Create a postgres role who can login and create databases
+sudo -u postgres createuser -d `whoami`
+
 # Others that might be needed
 #sudo apt-get -y install bison openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev
 
