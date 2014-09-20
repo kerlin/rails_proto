@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 # So we make symlink in vagrant home dir with name of this dir
-system "BASE=$(basename `pwd`); CMD=\"s/PROJECT_DIR$/$BASE/\"; sed -i -e $CMD bootstrap.sh"  
-system "BASE=$(basename `pwd`); CMD=\"s/PROJECT_DIR$/$BASE/\"; sed -i -e $CMD rails_project_init.sh"  
+system "BASE=$(basename `pwd`); CMD=s/PROJECT_DIR$/$BASE/; sed -i 'x' -e $CMD bootstrap.sh"  
+system "BASE=$(basename `pwd`); CMD=s/PROJECT_DIR/$BASE/; sed -i 'x' -e $CMD rails_project_init.sh"  
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
 

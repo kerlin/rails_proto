@@ -8,5 +8,5 @@ whoami
 echo "Present working dir "
 pwd
 
-sh /vagrant/rails_env_install.sh
+. /vagrant/rails_env_install.sh
 
